@@ -1,6 +1,6 @@
 var http = require('http'),
     os = require('os'),
-    port = 8000;
+    port = process.env.PORT || 8000;
 
 http.createServer(function (request, response) {
     response.writeHead(200, {

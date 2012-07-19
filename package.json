@@ -1,7 +1,7 @@
 {
     "name": "node-hello-world-stanleyn",
     "version": "0.0.1",
-    "engine" {
+    "engine": {
         "node": "0.6.x",
         "npm": "1.1.x" 
     }
